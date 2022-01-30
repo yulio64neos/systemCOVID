@@ -2,7 +2,7 @@ CREATE DATABASE covid;
 USE covid;
 
 CREATE TABLE alumnos(
-    matricula VARCHAR(20) NOT NULL AUTO_INCREMENT PRIMARY KEY(matricula),
+    matricula VARCHAR(20) NOT NULL AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(50) NOT NULL,
     division VARCHAR(50) NOT NULL,
     programaEducativo INT NOT NULL,
